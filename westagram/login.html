@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Instagram Clone</title>
+    <link href="style/common.css" rel="stylesheet" type="text/css" />
+     <link href="style/login.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class="login-box">
+        <div class="logo-wrapper">
+          <a href= "#">
+            <img src="./img/logo_text.png" alt="instagram logo">
+          </a>
+        </div>
+        <form action class="input-container">
+          <div class="input-wrapper">
+            <input type="text" class="id-input" minlength="10" placeholder="전화번호, 사용자 이름, 또는 이메일"></input>
+            <input type="password" class="input-password" minlength="8" placeholder="비밀번호"></input>
+          </div>
+          <a class="test">
+            <button type="submit" id="login-button" style="opacity: 0.2; cursor: pointer;" disabled>로그인</button>
+          </a>
+        </form>
+        <p class="pwd-find">비밀번호를 잊으셨나요?
+        </p>
+    </main>
+    <footer class="footer">
+      <div class="copyright-logo">
+        <p>
+          © 2020 WESTAGRAM BY JMHONG
+        </p>
+      </div>
+    </footer>
+    <script src="js/login.js"></script>
+  </body>
+</html>
