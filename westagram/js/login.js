@@ -1,5 +1,5 @@
-let loginButton = document.querySelector('#login-button');
-let bothInputWritten = document.querySelector(".input-container")
+const loginButton = document.querySelector('#login-button');
+const bothInputWritten = document.querySelector(".input-container")
 
 bothInputWritten.addEventListener('keyup', function(){
     let inputtedId = document.querySelector('.id-input').value;
@@ -10,4 +10,12 @@ bothInputWritten.addEventListener('keyup', function(){
     } else{
         loginButton.style.opacity = 0.2;
     }
+
+   /* document.addEventListener("keyup", function() {
+        console.log("inputtedId >>>", inputtedId);
+        console.log("inputtedPw >>>", inputtedPw);
+    })*/
+
 });
+
+
